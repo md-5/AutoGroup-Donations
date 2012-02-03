@@ -1,0 +1,24 @@
+debug: true
+
+# MYQL Database Information
+mysqlURL: 127.0.0.1
+dbName: AutoGroup
+username: AutoGroup
+password: AutoGroup
+
+# Internal Table Structure - Do not change!
+table: donators
+table2: players
+
+# Promotion command.
+# %1$s == glayername
+# %2$s == group
+command: permissions player setgroup %1$s %2$s
+
+# Donation Information
+don1Group: Don1
+don2Group: Don2
+don3Group: Don3
+don1Amount: 15
+don2Amount: 25
+don3Amount: 26
